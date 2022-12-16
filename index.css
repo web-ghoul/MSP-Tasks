@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: ease-in-out all .3s;
+    text-transform: capitalize;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+main .container {
+    display: grid;
+    align-items: center;
+    justify-content: stretch;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.contain {
+    padding: 20px 100px;
+}
+
+header .contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #010101;
+}
+
+header .contain .logo picture img {
+    width: 100px;
+}
+
+header .contain .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    color: #7FBA00;
+    list-style: none;
+}
+
+header .contain .items li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #F25123;
+    text-decoration: none;
+}
+
+header .contain .items li a:hover {
+    color: #7FBA00;
+}
+
+.home .contain {
+    background-image: url(./ba394ea8-a0b1-4b23-b2f3-e4a48b0aa776.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 145px);
+    position: relative;
+    top: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.home .contain h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.home .contain h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.home .contain .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .contain .btn button {
+    outline: none;
+    border: none;
+    padding: 18px 50px;
+    background-color: #7FBA00;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 4px solid #7FBA00;
+}
+
+.home .contain .btn button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #7FBA00;
+}
+
+.about .contain {
+    background-color: #1E1E1E;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about .contain .head {
+    color: #7FBA00;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .contain .members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.about .contain .members .member {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.about .contain .members .member picture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #fff;
+}
+
+.about .contain .members .member picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.about .contain span.name {
+    color: #fff;
+    font-size: 22px;
+}
+
+.about .contain span.job {
+    font-size: 18px;
+    color: #F25123;
+}
+
+.done .contain {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.done .contain .head {
+    color: #F25123;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.done .contain .boxes {
+    display: grid;
+    align-items: center;
+    justify-content: stretch;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.done .contain .boxes .box picture img {
+    width: 100%;
+    height: 100%;
+}
